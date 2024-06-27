@@ -1,0 +1,127 @@
+body{
+    xbackground:linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(255, 255, 255) 53%, #b0254f 100%);
+    background-image: url(../img/bg-lojas.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.grupo-lojas{
+    display: flex;
+    align-items: center;
+    width: 45rem;
+    margin:auto;
+}
+
+.imagem-lojas img{
+    width: 400px;
+    border-radius: 35px;
+}
+
+.informacoes-lojas{
+    display: flex;
+    flex-direction: column;   
+    
+}
+
+.informacoes-lojas h2{
+    background-color:#b0254f;
+    padding: 10px 55px 10px 5px;
+    border-radius: 0px 10px 10px 0px;
+    width: 300px;
+    color:rgb(255, 166, 0)
+}
+
+.informacoes-lojas p{
+    background-color: #6e1e62;
+    color:white;
+    padding: 0px 5px 0px 5px;
+    display: inline;
+    width: 280px;
+}
+
+.container-lojas button{
+    color: blueviolet;
+    background-color: #eb9605;
+    padding: 8px 25px 8px 25px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    position:relative;
+    top: 60px;
+    left:-80px;
+}
+
+.container-lojas button:hover{
+background-color: rgb(255, 230, 0);
+}
+
+.container-lojas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-image: url(../img/bg-lojas-res.jpg);
+    }
+    .grupo-lojas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 29rem; 
+    }
+
+    .container-lojas button{
+        position: static;
+        width: 424px;
+        border-radius: 0px 0px 8px 8px
+        
+    }
+
+    .imagem-lojas img{
+        width: 800px;
+        height: 100%;
+        border-radius: 20px 20px 0px 0px
+    }
+
+    .informacoes-lojas h2{
+        width: 464px;
+        border-radius: 0px
+        
+    }
+
+    .informacoes-lojas p{
+        width: 464px;
+        border-radius: 0px
+    }
+
+    @media screen and (max-width: 480px) {
+        .grupo-lojas{
+            width: 300px;
+            margin: auto;
+        }
+
+        .informacoes-lojas h2{
+            width: auto;
+            border-radius: 0px;
+            font-size: 15px; 
+        }
+    
+        .informacoes-lojas p{
+            width: 100%; 
+        }
+    }
+
+
+
+    
+}
+
+
+
+
+

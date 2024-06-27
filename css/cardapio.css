@@ -1,0 +1,118 @@
+.produtos-cardapio {
+    text-align: center;
+    padding: 20px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.grid-container-cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card-cardapio {
+    width: 300px; /* Ajuste a largura dos cards */
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-cardapio img {
+    width: 100%;
+    height: 200px; /* Ajuste a altura da imagem */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0; 
+}
+
+.card-cardapio h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-cardapio p {
+    line-height: 1.5;
+}
+
+.card-cardapio .preco-cardapio {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-cardapio button {
+    background-color: #eb9605;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15;
+    font-weight: 700;
+}
+
+.card-cardapio button:hover {
+    background-color: #6e1e62;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(131,81,124,1) 53%, rgba(255,255,255,1) 100%);
+}
+
+/* RESPONSIVIDADE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media screen and (max-width: 1100px) {
+    .produtos-cardapio {
+        text-align: center;
+        padding: 0px;
+        width: 1000px;
+        
+        
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .produtos-cardapio {
+        text-align: center;
+        padding: 0px;
+        width: 1000px;
+        
+        
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .produtos-cardapio {
+        text-align: center;
+        padding: 0px;
+        width: 700px;
+        
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .produtos-cardapio {
+        text-align: center;
+        padding: 0px;
+        width: 600px;
+        
+        
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .produtos-cardapio {
+        text-align: center;
+        padding: 0px;
+        width: 400px;
+        
+        
+        
+        
+    }
+}
+
